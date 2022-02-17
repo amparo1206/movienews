@@ -1,0 +1,10 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: rgb(146, 241, 241);
+    color: black;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
