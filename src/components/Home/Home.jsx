@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Home.css'
+import './Home.scss'
 
 class Home extends Component{
     constructor() {
@@ -8,8 +8,8 @@ class Home extends Component{
     render() {
         return <nav className='home'>
             <li>Home</li>
-            <li>Artículos</li>
-            <li>Recomendaciones</li>
+            <li>Reviews</li>
+            <li>Interviews</li>
         </nav>
     }
 }
