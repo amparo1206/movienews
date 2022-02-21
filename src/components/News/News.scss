@@ -1,15 +1,36 @@
 @import '../../colors.scss';
-.new{
-    display: flex;
-    height: 280px;
-    width: 200px;
-    background-color: $second-color1;
-    color: $primary-color2;
-    border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
-    margin-left: 50px; 
-    transition: 0.4s ease-out;
-    position: relative;
-    left: 0px;
 
-}
+.new-container {
+        width: 100%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+      }
+    .card {
+        background:$second-color1;
+        text-decoration: none;
+        color: $primary-color2;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        article {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          h1 {
+            font-size: 20px;
+            margin: 0;
+            color: $primary-color2;
+          }
+          
+          p {
+            flex: 1;
+            line-height: 1.4;
+          }
+    }
+        

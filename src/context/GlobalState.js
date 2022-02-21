@@ -13,7 +13,7 @@ export const GlobalProvider = ({ children }) => {
     const [state, dispatch] = useReducer(AppReducer, initialState);
   
     const getNews = async () => {
-      const res = await axios.get("https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=godfather&api-key=90RBA3fb2faSixYXVsDPRENdC48TyGAZ");
+      const res = await axios.get("https://api.nytimes.com/svc/topstories/v2/technology.json?api-key=W9mR8NdBnMrA5dzU0cpDQGPZF5w91u4p");
       console.log(res.data)
         dispatch({
         type: "GET_NEWS",
