@@ -1,11 +1,20 @@
 @import '../../colors.scss';
 .Header{
+    all: unset;
     display: flex;
     justify-content: space-around;
     padding: 1em;
     background-color: $primary-color1;
-    color: black;
-    list-style-type: none;
+    color: $bottom-color1;
     font-size: 18px;
-    font-family: 'Times New Roman';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    span{
+        cursor: pointer;
+    }
+    div span{
+        margin: 1em;
+    }
+    a{
+        all:unset;
+    }
 }
