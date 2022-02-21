@@ -14,7 +14,8 @@ export const GlobalProvider = ({ children }) => {
   
     const getNews = async () => {
       const res = await axios.get("https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=godfather&api-key=90RBA3fb2faSixYXVsDPRENdC48TyGAZ");
-      dispatch({
+      console.log(res.data)
+        dispatch({
         type: "GET_NEWS",
         payload: res.data.results,
       });
