@@ -20,10 +20,10 @@ You may also see any lint errors in the console.
 
 
 ### PC principal view
-![foto](https://trello.com/c/irtMkoFo/11-fotos)
+![Image text](https://github.com/amparo1206/movienews/blob/main/src/img/Captura%20de%20pantalla%202022-02-22%20a%20las%209.21.44.png)
 
 ### PC form view
-![foto](https://trello.com/c/irtMkoFo/11-fotos)
+![Image text](https://github.com/amparo1206/movienews/blob/main/src/img/Captura%20de%20pantalla%202022-02-22%20a%20las%209.23.24.png)
 
 
 
